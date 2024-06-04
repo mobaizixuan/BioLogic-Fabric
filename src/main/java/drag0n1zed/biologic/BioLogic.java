@@ -1,7 +1,7 @@
 package drag0n1zed.biologic;
 
 import drag0n1zed.biologic.block.ModBlocks;
-import drag0n1zed.biologic.item.ModItemGroups;
+import drag0n1zed.biologic.ui.ModItemGroups;
 import drag0n1zed.biologic.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 

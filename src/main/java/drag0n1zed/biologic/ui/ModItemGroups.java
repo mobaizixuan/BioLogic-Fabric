@@ -1,7 +1,8 @@
-package drag0n1zed.biologic.item;
+package drag0n1zed.biologic.ui;
 
 import drag0n1zed.biologic.BioLogic;
 import drag0n1zed.biologic.block.ModBlocks;
+import drag0n1zed.biologic.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
