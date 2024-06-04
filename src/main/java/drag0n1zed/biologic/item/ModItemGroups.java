@@ -19,6 +19,7 @@ public class ModItemGroups {
                             .entries((displayContext, entries) -> {
                                 entries.add(ModItems.DNA);
                                 entries.add(ModBlocks.BIOTECH_FRAME);
+                                entries.add(ModBlocks.PRIMA_MATERIA_BLOCK);
                             })
                             .build());
 
