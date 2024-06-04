@@ -3,20 +3,23 @@
 	"id": "biologic",
 	"version": "${version}",
 	"name": "BioLogic",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Logical Biotechnology, now fabricated!",
 	"authors": [
-		"Me!"
+		"drag0n1zed"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/drag0n1zed/biologic-fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/biologic/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"drag0n1zed.biologic.BioLogic"
+		],
+		"client": [
+			"drag0n1zed.biologic.BioLogicClient"
 		],
 		"fabric-datagen": [
 			"drag0n1zed.biologic.BioLogicDataGenerator"
