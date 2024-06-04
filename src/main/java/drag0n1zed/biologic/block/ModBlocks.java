@@ -27,6 +27,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        BioLogic.LOGGER.info("registering ModBlocks for " + BioLogic.MOD_ID);
+        BioLogic.LOGGER.info("Registering ModBlocks for " + BioLogic.MOD_ID);
     }
 }
