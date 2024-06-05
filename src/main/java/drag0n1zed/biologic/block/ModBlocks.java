@@ -15,8 +15,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block BIOTECH_FRAME = registerBlock("biotech_frame",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL)));
-    public static final Block PRIMA_MATERIA_BLOCK = registerBlock("prima_materia_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block PRIMA_MATERIA_ORE = registerBlock("prima_materia_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

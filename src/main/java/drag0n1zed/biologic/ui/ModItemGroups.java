@@ -19,8 +19,9 @@ public class ModItemGroups {
                             .icon(() -> new ItemStack(ModItems.DNA))
                             .entries((displayContext, entries) -> {
                                 entries.add(ModItems.DNA);
+                                entries.add(ModItems.PRIMA_MATERIA);
                                 entries.add(ModBlocks.BIOTECH_FRAME);
-                                entries.add(ModBlocks.PRIMA_MATERIA_BLOCK);
+                                entries.add(ModBlocks.PRIMA_MATERIA_ORE);
                             })
                             .build());
 
