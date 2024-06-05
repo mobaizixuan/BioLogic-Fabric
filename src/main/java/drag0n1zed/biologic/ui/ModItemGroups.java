@@ -15,7 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup BIOLOGIC_GROUP =
             Registry.register(Registries.ITEM_GROUP, new Identifier(BioLogic.MOD_ID, "dna"),
                     FabricItemGroup.builder()
-                            .displayName(Text.translatable("itemGroup.biologic.biologic"))
+                            .displayName(Text.translatable("itemGroup.biologic"))
                             .icon(() -> new ItemStack(ModItems.DNA))
                             .entries((displayContext, entries) -> {
                                 entries.add(ModItems.DNA);
