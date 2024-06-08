@@ -18,5 +18,4 @@ public class ModItems {
     public static void registerModItems() {
         BioLogic.LOGGER.info("Registering ModItems for " + BioLogic.MOD_ID);
     }
-    //
 }
