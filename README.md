@@ -1,2 +1,3 @@
-# BioLogic-Fabric
+# BioLogic Fabric
+
 Logical Biotechnology, now fabricated!
