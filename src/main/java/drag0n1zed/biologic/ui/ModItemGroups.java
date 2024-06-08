@@ -22,7 +22,7 @@ public class ModItemGroups {
                                 entries.add(ModItems.PRIMA_MATERIA);
                                 entries.add(ModBlocks.BIOTECH_FRAME);
                                 entries.add(ModBlocks.PRIMA_MATERIA_ORE);
-                                entries.add(ModItems.magic_wand);
+
                             })
                             .build());
 
